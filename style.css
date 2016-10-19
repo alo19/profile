@@ -1,0 +1,64 @@
+/* Here goes your CSS */
+body {
+background: url("images/Russia.png");
+}
+
+h1 {
+color: red;
+background-color: white;
+font-family: Montserrat;
+line-height: 2;
+letter-spacing: 1.5;
+}
+
+h2 {
+color: blue;
+font-family: Verdana;
+}
+
+a {
+color: lightblue  ;
+text-decoration:  ;
+}
+
+a:hover {
+    color: hotpink;
+}
+
+tbody {
+
+color: orange;
+
+}
+
+/* See this!!! Difference betwen classes and id's */
+
+#header-red {
+  color: red;
+}
+
+.movie2 {
+  color: green;
+}
+
+.container {
+  width: 500px;
+  margin: 10 auto;
+  /* Set width
+  /* Automatically set left/right margins */
+}
+
+.card {
+  background: grey;
+  box-shadow: 2px, 2px 2px blue;
+  text-align: center;
+}
+
+.card p {
+  font-size: 50px;
+}
+
+/*Or you can also call .card img {}*, but will select all/
+#profile{
+
+}
